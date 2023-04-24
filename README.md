@@ -1,19 +1,8 @@
 # 백준 문제 풀이
-<div align="left">
-	<h3>✨ Languages ✨</h3>
-</div>
-<div align="left">
-	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
-</div>
-<br>
-<div align=center>
-	<h3>🛠 Tools 🛠</h3>
-</div>
-<div align=center>
-	<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat&logo=VisualStudioCode&logoColor=white" />
-	<br>
-	<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
-</div>
+## Languague & tool
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat&logo=VisualStudioCode&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
 <br>
 <div align=center>
 	<h3>🕶️ Contact Me 🕶️</h3>
