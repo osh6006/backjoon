@@ -1,5 +1,5 @@
 <div align=center>
-	#백준 문제 풀이
+	<h2>백준 문제 풀이</h2>
 </div>
 <div align=center>
 	<h3>✨ Languages ✨</h3>
@@ -7,7 +7,6 @@
 <div align="center">
 	<br>
 	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
-	<br>
 </div>
 <br>
 <div align=center>
