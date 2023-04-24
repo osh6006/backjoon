@@ -1,5 +1,5 @@
 <div align=center>
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=OHS%20BACKJOON&fontSize=50" />	
+	#백준 문제 풀이
 </div>
 <div align=center>
 	<h3>✨ Languages ✨</h3>
