@@ -33,14 +33,12 @@
 </div>
 <div align=center>
 <br>
-<br>
 	<div>
 	   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=osh6006&layout=compact">
 	</div>
 	<div>
 	   <img src="https://github-readme-stats.vercel.app/api?username=osh6006&show_icons=true">
 	</div>
-<br>
 <br>
 <p>🏆 Baekjoon solved rank 🏆</p>
 
