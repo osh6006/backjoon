@@ -1,7 +1,8 @@
 const fs = require('fs');
 const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 const A = parseInt(input.shift());// 첫번째 값 제거
-let num=0;
+
+
 function factorial(num){
     if(num<=1) return 1;
     return num * factorial(num-1);
