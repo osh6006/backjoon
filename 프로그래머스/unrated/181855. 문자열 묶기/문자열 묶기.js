@@ -1,15 +1,5 @@
 function solution(strArr) {
-    const tempObj = {};
-    strArr.forEach((el)=>{
-        if(tempObj[el.length]){
-            tempObj[el.length] += 1;
-        }else{
-            tempObj[el.length] = 1;
-        }
-    });
-    
-    
-    const answer = Object.values(tempObj);
-    
-    return Math.max(...answer);
+    let ans = Array(31).fill(0);
+    for (let s of strArr) ans[s.length]++
+    return Math.max(...ans)
 }
