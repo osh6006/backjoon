@@ -79,8 +79,7 @@ function solution(scoville, K) {
     }
     
     
-    if(heap.pop()<K) return -1;
-    if(heap.heap.length <= 0){
+    if(heap.heap.length <= 0 || heap.pop()<K){
         return -1;
     }
     
