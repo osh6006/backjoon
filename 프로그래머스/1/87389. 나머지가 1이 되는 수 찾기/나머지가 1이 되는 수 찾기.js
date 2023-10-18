@@ -1,4 +1,4 @@
-
+// 안풀어도 됨.
 function solution(n) {
     const temp = n;
     let answer = 0;
