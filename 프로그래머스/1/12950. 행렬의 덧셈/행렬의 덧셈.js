@@ -1,3 +1,4 @@
+// 다시 안풀어도 됨.
 function solution(arr1, arr2) {
     var answer = Array.from({length:arr1.length}, ()=>[]);
     
