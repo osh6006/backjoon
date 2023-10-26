@@ -1,4 +1,4 @@
-// 
+// 안풀어도 됨
 
 function solution(s, n) {
     const lowAlphabet = "abcdefghijklmnopqrstuvwxyz".split("")
