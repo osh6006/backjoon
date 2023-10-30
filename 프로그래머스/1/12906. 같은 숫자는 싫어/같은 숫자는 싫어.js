@@ -1,3 +1,4 @@
+// 스택의 기본적인 문제 다시 풀어보기
 function solution(arr){
     const stack = [];
     
