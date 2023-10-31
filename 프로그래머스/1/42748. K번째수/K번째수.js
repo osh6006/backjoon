@@ -1,7 +1,10 @@
 function solution(array, commands) {
-    return commands.reduce((prev, curr)=>{
-        const [start, end, number] = curr;
-        prev.push(array.slice(start-1,end).sort((a,b)=>a-b)[number-1]);
-        return prev;
-    }, [])
+    const answer = [];
+    commands.forEach((el)=>{
+        const [a,b,c] = el;
+        const sortedArr = array.slice(a-1,b).sort((a,b)=>a-b);
+        answer.push(sortedArr[c-1]);
+    });
+    
+    return answer;
 }
