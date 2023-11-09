@@ -1,12 +1,22 @@
+// 서로 다른 두개의 수를 뽑아서 더하기
+// 조합 
+// 다시 풀어보기/
 function solution(numbers) {
-    let temp = [];
-    var answer = [];
+    const answer = combination(numbers,2).flat();
+    return [...new Set(answer)].sort((a,b)=>a-b);
     
-    for(let i=0;i<numbers.length; i++){
-        for(let j=i+1; j<numbers.length; j++){
-            answer.push(numbers[i]+numbers[j])
-            console.log(i,j)
-        }
-    }
-    return [...new Set(answer.sort((a,b)=>a-b))];
+}
+
+function combination(arr, n){
+    if(n===1) return arr.map(el=>[el]);
+    let result = [];
+    
+    arr.forEach((fixed, idx, arr)=>{
+        const rest = arr.slice(idx+1);
+        const comb = combination(rest, n-1);
+        const combine = comb.map(el=>[fixed, ...el]).map(el=>el[0]+el[1]);
+        result.push([...combine]);
+    });
+    
+    return result;
 }
