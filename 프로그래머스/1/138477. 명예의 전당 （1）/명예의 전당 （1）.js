@@ -1,4 +1,5 @@
 // 큐와 뭐를 섞어야 하는듯
+// 안풀어도 됨
 function solution(k, score) {
     const queue = [];
     const result = [];
