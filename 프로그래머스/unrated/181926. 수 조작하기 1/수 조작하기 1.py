@@ -1,8 +1,7 @@
 from functools import reduce
 
 def solution(n, control):
-    directions = list(control)
-    return reduce(control_cal, directions, n)
+    return reduce(control_cal, control, n)
 
 def control_cal(prev, word):
     if word == 'w':
