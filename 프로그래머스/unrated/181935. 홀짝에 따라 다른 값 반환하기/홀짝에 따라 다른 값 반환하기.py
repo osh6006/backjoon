@@ -1,20 +1,7 @@
 def solution(n):
-    if(n % 2 == 0):
-        return cal_even(n)
-    else:
-        return cal_odd(n)
-    
-def cal_odd(n):
-    result = 0;
-    for i in range(1,n+1):
-        if(i%2 != 0):
-            result += i
-    return result;
-        
-def cal_even(n):
-    result = 0;
-    for i in range(1,n+1):
-        if(i%2 == 0):
-            result += pow(i,2)
-    return result;
-    
+    # 홀수인 경우 1부터 n까지 2씩 늘어남 따라서 홀수
+    if n % 2 == 1:  
+        return sum(i for i in range(1, n + 1, 2))
+    # 짝수인 경우 2부터 n까지 2씩 늘어남 따라서 짝수 
+    else:  
+        return sum(i**2 for i in range(2, n + 1, 2))
